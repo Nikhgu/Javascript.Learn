@@ -39,7 +39,7 @@ const myFunction = function(){
 console.log("Hello World");
 }
 
-console.log(typeof anotherId);
+//console.log(typeof anotherId);
 
 //typeof Opertor Results
 //Undefined => Undefined
@@ -49,4 +49,33 @@ console.log(typeof anotherId);
 //String => String
 //file of typeof Operator Results
 // https://learn.microsoft.com/en-us/openspecs/ie_standards/ms-es3/8dbafca7-d96d-4026-a10b-f86daa72825c
+
+//*************************************************************************************/
+// Stack and Heap Memory
+// Stack Memory is used for Primitive DataTypes and Heap Memory is used for Non Primitive DataTypes
+// Stack Memory is faster than Heap Memory
+// Stack Memory is used for static memory allocation and Heap Memory is used for dynamic memory allocation
+// Stack Memory is used for storing variables and Heap Memory is used for storing objects
+// Stack Memory is used for storing function calls and Heap Memory is used for storing objects and arrays
+
+//In Stack memory we get a copy of the data and in Heap memory we get a reference to the data(means address of the data in memory(Original Data)) 
+//*************************************************************************************/
+let myYoutubename = "Nikhil Gupta.com"
+
+let anothername = "ChaiaurCode";
+console.log(myYoutubename);
+
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upiId: "user@ybl",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "nikhil@google.com"
+console.log(userOne.email); // Output:
+console.log(userTwo.email); // Output:
+
 
