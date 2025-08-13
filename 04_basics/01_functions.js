@@ -20,7 +20,7 @@ console.log("L");
     
 //    let result = num1 + num2;
 //    return result; //returning the result
-//    //this will not work because the function is returning a value
+
 //return num1 + num2; //returning the result directly
 //    //this will work because the function is returning a value
 //    //the return statement ends the function execution and returns the value
