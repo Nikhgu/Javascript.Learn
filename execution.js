@@ -6,6 +6,7 @@
 //2)Exection phase in this phase 
 
 let val1 = 10
+let val1 = 10
 let val2 = 5
 function addNum(num1, num2) { 
     let total = num1 + num2
