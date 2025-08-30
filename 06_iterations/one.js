@@ -46,9 +46,16 @@ for (let index = 0; index < myArray.length; index++) {
 
 for (let index = 1; index <= 20; index++) {
     if(index == 5){
+<<<<<<< HEAD
         //console.log(`Detected 5`);
         continue;
     }
     //console.log(`Value of i is ${index}`); 
+=======
+        console.log(`Detected 5`);
+        continue;
+    }
+    console.log(`Value of i is ${index}`); 
+>>>>>>> a3533c892e5eca8883617ad264e9b8d0922df7c9
 }
 
